@@ -148,7 +148,6 @@ See [helm uninstall](https://helm.sh/docs/helm/helm_uninstall/) for command docu
 | `secret.jwtSecret`     | Specify the secret to enables Authentication using JWT                               | `""`                                         |
 | `secret.jwtSecrets`    | Optionally specify a list of secrets to enables Authentication using JWT (EE)        | `""`                                         |
 | `secret.redisUrl`      | The connection string to the redis database for caching (EE)                         | `""`                                         |
-| `secret.redisUrl`      | The connection string to the redis database for rate limit (EE)                      | `""`                                         |
 | `secret.ssoProviders`  | Optionally specify the list of Identity provider settings for console SSO login (EE) | `[]`                                         |
 | `secret.extraSecrets`  | Extra secrets data for graphql-engine environment variables (EE)                     | `{}`                                         |
 
